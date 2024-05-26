@@ -1,0 +1,67 @@
+/* Add this CSS to your stylesheet */
+.details-container {
+    background: linear-gradient(135deg, #4363e6, #bfe9ff);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    /* Text color for the heading */
+    width: 70%;
+    /* Set width to 70% of the viewport */
+    margin: 0 auto;
+    /* Center the container horizontally */
+    text-align: center;
+    /* Center align text */
+}
+
+.details-container h2 {
+    margin-bottom: 20px;
+    /* Add space below the heading */
+    font-size: 34px;
+    /* Increase font size */
+}
+
+.details-container p {
+    margin: 10px 0;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: black;
+    font-size: x-large;
+    font-weight: 600;
+    /* Add space around each paragraph */
+}
+
+.details-container p:nth-child(odd) {
+    background-color: rgba(96, 105, 223, 0.667);
+    /* Alternate background color for odd paragraphs */
+}
+
+.details-container div {
+    background-color: rgba(243, 242, 247, 0.469);
+    /* Background color for the form data */
+    padding: 20px;
+    /* Add padding */
+    border-radius: 10px;
+    /* Add border radius */
+}
+
+/* Additional styling for better readability */
+@media (max-width: 768px) {
+    .details-container {
+        width: 90%;
+        /* Adjust width for smaller screens */
+    }
+
+    .details-container h2 {
+        font-size: 20px;
+        /* Decrease font size for smaller screens */
+    }
+
+    .details-container p {
+        font-size: 16px;
+        /* Decrease font size for smaller screens */
+    }
+}
